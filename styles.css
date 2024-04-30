@@ -723,7 +723,7 @@ ol li{
 
 
 .line { width: 25px; height: 3px; background-color: white; margin: 5px; transition: transform 0.3s ease; }
-@media (min-width: 768px) { .hamburger { display: none; /* Hide the hamburger button on larger screens */ } 
+@media (min-width: 768px) { body{width: 50%;} .hamburger { display: none; /* Hide the hamburger button on larger screens */ } 
 
 .navbar-menu { position: static; /* Reset position for larger screens */ display: flex; /* Ensure the menu is visible */ background-color: transparent; /* Set background color to transparent */ flex-direction: row; /* Adjust for horizontal layout */ width: auto; /* Allow the menu to expand */ } 
 
